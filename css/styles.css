@@ -336,10 +336,7 @@ color: #FFFFFF;
 .logo-white {
     color:#ffffff
 }
-.footer-info {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
+
 .contacts-list .contacts-item {
     display: inline-block;
     text-decoration: none;
@@ -355,6 +352,13 @@ color: #FFFFFF;
     line-height: 1.7;
     margin: 0px;
     padding: 0px;
+}
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.logo-link {
+    padding-bottom: 20px;
 }
 /* .contacts-item {
     margin-bottom: 9px;
