@@ -125,10 +125,8 @@ list-style-type: none;
     outline: auto;
 }
 .cont-links::before {
-    content: '' ;
+    content: "" ;
     display: inline-block;
-    
-
 }
 ul.contacts>li {
     font-weight: 500;
@@ -208,6 +206,9 @@ ul.contacts .item + .item {
 /* page */
 .icon-page {
     outline: auto;
+}
+.icons-page {
+    background-color: #F5F4FA;;
 }
 .page ul {
     /* display: inline-block; */
