@@ -127,7 +127,7 @@ list-style-type: none;
 .cont-links::before {
     content: '' ;
     display: inline-block;
-    fill: red;
+    
 
 }
 ul.contacts>li {
@@ -151,7 +151,7 @@ ul.contacts .item + .item {
 .cont-email:hover { 
     color:var(--link-hover-color);
 }
-.cont-email{
+.cont-links{
     color: var(--primary-text-color);
     text-decoration: none;
 }
@@ -206,6 +206,9 @@ ul.contacts .item + .item {
 }
 
 /* page */
+.icon-page {
+    outline: auto;
+}
 .page ul {
     /* display: inline-block; */
     justify-content: center;
