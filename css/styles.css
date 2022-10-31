@@ -120,7 +120,16 @@ ul.contacts {
 color: var(--primary-text-color);
 list-style-type: none;
 }
+.icons-contact {
+    fill: red;
+    outline: auto;
+}
+.cont-links::before {
+    content: '' ;
+    display: inline-block;
+    fill: red;
 
+}
 ul.contacts>li {
     font-weight: 500;
     font-size: 14px;
