@@ -208,7 +208,9 @@ ul.contacts .item + .item {
     outline: auto;
 }
 .icons-page {
-    background-color: #F5F4FA;;
+    display: flex;
+    background-color: #F5F4FA;
+    justify-content: center;
 }
 .page ul {
     /* display: inline-block; */
