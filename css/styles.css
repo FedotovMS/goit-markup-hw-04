@@ -256,6 +256,10 @@ ul.contacts .item + .item {
 .page-list>.item:nth-last-child(1) {
     margin-right: 0;
 }
+.icons-page {
+    --color1: #212121;
+    --color2: #2196F3;
+}
 
 /* our activities */
 .section-activities {
@@ -606,7 +610,3 @@ button {
 /* .filter-cards .item:not(:nth-child(3n)) {
     margin-right: 30px;
 } */
-.icons-page {
-    --color1: #212121;
-    --color2: #2196F3;
-}
